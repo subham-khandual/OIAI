@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 70" fill="none">
+  <!-- Small "Google" header -->
+  <g transform="translate(72, 8)">
+    <text font-family="'Google Sans', Roboto, -apple-system, sans-serif" font-size="14" font-weight="500">
+      <tspan fill="#4285F4">G</tspan>
+      <tspan fill="#EA4335">o</tspan>
+      <tspan fill="#FBBC05">o</tspan>
+      <tspan fill="#4285F4">g</tspan>
+      <tspan fill="#34A853">l</tspan>
+      <tspan fill="#EA4335">e</tspan>
+    </text>
+  </g>
+
+  <!-- Left Colab Infinity Ring Emblem -->
+  <g transform="translate(10, 14)">
+    <defs>
+      <linearGradient id="colab-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#F9AB00" />
+        <stop offset="100%" stop-color="#E37400" />
+      </linearGradient>
+    </defs>
+    <!-- Left Loop -->
+    <path d="M 24,20 C 24,11 17,4 9,4 C 3.5,4 0,8.5 0,14 C 0,19.5 3.5,24 9,24 C 17,24 24,17 24,8"
+          stroke="url(#colab-amber)" stroke-width="7" stroke-linecap="round" fill="none" />
+    <!-- Right Loop -->
+    <path d="M 24,8 C 24,17 31,24 39,24 C 44.5,24 48,19.5 48,14 C 48,8.5 44.5,4 39,4 C 31,4 24,11 24,20"
+          stroke="url(#colab-amber)" stroke-width="7" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Main "colab" Typography -->
+  <text x="70" y="52" font-family="'Google Sans', Inter, -apple-system, sans-serif" 
+        font-size="38" font-weight="600" fill="#E37400" letter-spacing="-0.8">colab</text>
+</svg>

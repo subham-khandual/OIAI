@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 70" fill="none">
+  <defs>
+    <linearGradient id="gemini-text-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A73E8" />
+      <stop offset="35%" stop-color="#4285F4" />
+      <stop offset="68%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#E11D48" />
+    </linearGradient>
+    <linearGradient id="gemini-star-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+
+  <!-- Google Gemini Sparkle Star -->
+  <g transform="translate(14, 15)">
+    <!-- 4-point curved diamond star -->
+    <path d="M 18,0 Q 18,18 36,18 Q 18,18 18,36 Q 18,18 0,18 Q 18,18 18,0 Z" fill="url(#gemini-star-g)" />
+    <!-- Small satellite diamond sparkle -->
+    <path d="M 33,2 Q 33,7 38,7 Q 33,7 33,12 Q 33,7 28,7 Q 33,7 33,2 Z" fill="#9333EA" opacity="0.85" />
+  </g>
+
+  <!-- "Gemini" Text -->
+  <text x="66" y="47" font-family="'Google Sans', Inter, -apple-system, sans-serif" 
+        font-size="40" font-weight="600" fill="url(#gemini-text-g)" letter-spacing="-0.5">Gemini</text>
+</svg>

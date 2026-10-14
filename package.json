@@ -1,26 +1,11 @@
 {
-  "name": "oiai-website",
+  "name": "oiai",
   "private": true,
   "version": "1.0.0",
-  "description": "Website for the Odisha Institute of Artificial Intelligence (OIAI)",
-  "type": "module",
+  "description": "Odisha Institute of Artificial Intelligence (OIAI)",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
-    "react-router-dom": "^7.18.4"
-  },
-  "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "@vitejs/plugin-react": "^6.1.1",
-    "tailwindcss": "^4.3.3",
-    "vite": "^8.3.2"
-  },
-  "engines": {
-    "node": ">=20.19"
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
   }
 }

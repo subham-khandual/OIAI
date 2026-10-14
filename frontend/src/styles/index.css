@@ -1,0 +1,94 @@
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "./base.css" layer(components);
+@import "./pages.css" layer(components);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme inline {
+  --color-brand-orange: #FF5A1F;
+  --color-brand-orange-hover: #E84D15;
+  --color-brand-teal: #0097B2;
+  --color-brand-navy: #0B1938;
+  --color-brand-blue: #0284C7;
+  --font-sans: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Poppins", system-ui, -apple-system, sans-serif;
+  --font-body: "Poppins", system-ui, -apple-system, sans-serif;
+}
+
+html, body {
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* OIAI Natural Eye-Catchy Styling */
+.oiai-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 12px -2px rgba(11, 25, 56, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.oiai-card:hover {
+  transform: translateY(-3px);
+  border-color: #CBD5E1;
+  box-shadow: 0 12px 28px -4px rgba(11, 25, 56, 0.08), 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.btn-orange {
+  background-color: #FF5A1F;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px 0 rgba(255, 90, 31, 0.35);
+}
+
+.btn-orange:hover {
+  background-color: #E84D15;
+  box-shadow: 0 6px 20px 0 rgba(255, 90, 31, 0.45);
+  transform: translateY(-1px);
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 25s linear infinite;
+}
+
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

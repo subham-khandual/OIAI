@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" fill="none">
+  <defs>
+    <linearGradient id="copilot-g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078D4" />
+      <stop offset="50%" stop-color="#00A2ED" />
+      <stop offset="100%" stop-color="#00D2B4" />
+    </linearGradient>
+    <linearGradient id="copilot-g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5D39" />
+      <stop offset="45%" stop-color="#FF385C" />
+      <stop offset="100%" stop-color="#7B2CBF" />
+    </linearGradient>
+    <linearGradient id="copilot-g3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E00" />
+      <stop offset="60%" stop-color="#FF5400" />
+      <stop offset="100%" stop-color="#D00000" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Microsoft Copilot Ribbon Icon -->
+  <g transform="translate(10, 8)">
+    <!-- Back Loop -->
+    <path d="M14 6 C6 6 0 12 0 20 C0 32 12 40 26 40 C34 40 40 34 40 26 C40 20 34 14 26 14 C20 14 16 18 16 22" 
+          stroke="url(#copilot-g1)" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Front Overlapping Ribbon Loop -->
+    <path d="M22 10 C32 10 42 16 44 26 C46 38 34 46 22 46 C12 46 6 40 6 30 C6 24 12 18 18 18 C24 18 28 22 28 26" 
+          stroke="url(#copilot-g2)" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Accent Ribbon Arc -->
+    <path d="M10 24 C10 16 16 10 26 10 C36 10 42 18 42 26 C42 34 36 42 24 42" 
+          stroke="url(#copilot-g3)" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85"/>
+  </g>
+
+  <!-- Wordmark "Copilot" -->
+  <text x="76" y="46" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="34" font-weight="700" fill="#0F172A" letter-spacing="-0.5">Copilot</text>
+  <text x="77" y="18" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="10.5" font-weight="600" fill="#0078D4" letter-spacing="1.2">MICROSOFT</text>
+</svg>

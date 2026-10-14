@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 70" fill="none">
+  <defs>
+    <linearGradient id="ghc-helmet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="50%" stop-color="#0078D4" />
+      <stop offset="100%" stop-color="#107C41" />
+    </linearGradient>
+    <linearGradient id="ghc-goggles" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+  </defs>
+
+  <!-- GitHub Copilot Avatar Head -->
+  <g transform="translate(10, 8)">
+    <!-- Helmet Base -->
+    <path d="M8 32 C8 14 18 4 30 4 C42 4 52 14 52 32 C52 44 42 50 30 50 C18 50 8 44 8 32 Z" fill="url(#ghc-helmet)" />
+    <!-- White Face Visor -->
+    <path d="M14 30 C14 20 20 16 30 16 C40 16 46 20 46 30 C46 40 40 44 30 44 C20 44 14 40 14 30 Z" fill="#FFFFFF" />
+    <!-- Robot Eyes -->
+    <circle cx="24" cy="30" r="3" fill="#0F172A" />
+    <circle cx="36" cy="30" r="3" fill="#0F172A" />
+    <!-- Pilot Goggles on Helmet Forehead -->
+    <rect x="18" y="10" width="11" height="8" rx="3.5" fill="url(#ghc-goggles)" stroke="#0F172A" stroke-width="1.5" />
+    <rect x="31" y="10" width="11" height="8" rx="3.5" fill="url(#ghc-goggles)" stroke="#0F172A" stroke-width="1.5" />
+    <line x1="28" y1="14" x2="32" y2="14" stroke="#0F172A" stroke-width="2" />
+    <!-- Earpieces -->
+    <rect x="4" y="24" width="5" height="14" rx="2.5" fill="#0284C7" />
+    <rect x="51" y="24" width="5" height="14" rx="2.5" fill="#0284C7" />
+  </g>
+
+  <!-- GitHub Copilot Typography -->
+  <text x="76" y="32" font-family="Inter, -apple-system, sans-serif" 
+        font-size="24" font-weight="800" fill="#0F172A" letter-spacing="-0.3">GitHub</text>
+  <text x="76" y="56" font-family="Inter, -apple-system, sans-serif" 
+        font-size="22" font-weight="600" fill="#334155" letter-spacing="-0.2">Copilot</text>
+</svg>
