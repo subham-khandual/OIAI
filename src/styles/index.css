@@ -1,0 +1,32 @@
+/*
+  Style entry point.
+  - Tailwind: theme tokens + utilities only (no preflight), so the legacy design
+    system below keeps rendering exactly as designed.
+  - base.css / pages.css: the original OIAI design system, kept as the
+    "components" layer. Tailwind utilities override it, so new work can use utilities.
+*/
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "./base.css" layer(components);
+@import "./pages.css" layer(components);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Design tokens exposed to Tailwind (single source of truth: :root in base.css) */
+@theme inline {
+  --color-lime: var(--lime);
+  --color-salmon: var(--salmon);
+  --color-lav: var(--lav);
+  --color-peach: var(--peach);
+  --color-brand: var(--red);
+  --color-brand-dark: var(--red-dk);
+  --color-ink: var(--ink);
+  --color-gray-soft: var(--gray);
+  --color-night: var(--night);
+  --color-neon-violet: var(--neon-violet);
+  --color-neon-cyan: var(--neon-cyan);
+  --font-display: var(--sans);
+  --font-body: var(--body);
+  --radius-card: var(--r-card);
+  --radius-lg-card: var(--r-lg);
+}
